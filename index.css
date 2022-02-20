@@ -1,0 +1,161 @@
+#main {
+  background-color: rgb(0, 174, 255);
+  width: 650px;
+  height: 850px;
+  text-align: center;
+}
+
+.container-first {
+  background-color: rgba(146, 252, 132, 0.938);
+  margin-left: 35px;
+  margin-right: 35px;
+  /* padding: 1px; */
+  padding-top: 15px;
+  margin-top: 10px;
+  padding-left: 0px;
+  height: 38px;
+  text-align: center;
+  font-size: large;
+  text-decoration: solid;
+}
+
+.container-first > span {
+  color: black;
+}
+
+.container-second {
+  background-color: yellow;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 65px;
+  margin-right: 65px;
+  padding: 7px;
+}
+
+.container-third {
+  background-color: yellow;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 7px;
+}
+
+.container-main {
+  background-color: rgb(153, 180, 229);
+  margin-top: 5px;
+  width: 600px;
+  height: 650px;
+  text-align: center;
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+
+#container-main-container1 {
+  background-color: yellow;
+  margin-top: 10px;
+  /* margin: 150px; */
+  /* padding: 115px; */
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+
+.container-main2 {
+  background-color: rgba(146, 252, 132, 0.938);
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#container-main2-container2 {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.containe-main3 {
+  background-color: aliceblue;
+}
+
+#containe-main3-container3 {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+  margin-top: 2px;
+}
+#containe-main3-container4 {
+  background-color: rgb(231, 187, 104);
+}
+#containe-main3-container4-heade {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+#containe-main3-container5 {
+  background-color: rgb(186, 152, 218);
+}
+#containe-main3-container4-navigation {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+#containe-main3-container6 {
+  background-color: yellow;
+}
+#containe-main3-container6-child-1Cont {
+  background-color: azure;
+  display: inline-block;
+}
+#containe-main3-container6-child-2Cont {
+  background-color: azure;
+  display: inline-block;
+}
+
+#containe-main3-container7 {
+  background-color: cornsilk;
+}
+#containe-main3-container7-footer {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.container-main2-wrapper {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.container-main-closeBody {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+  float: left;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.container-main-clodeHtml {
+  background-color: yellow;
+  margin-left: 220px;
+  margin-right: 220px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 2px;
+  float: right;
+}
