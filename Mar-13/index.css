@@ -1,0 +1,97 @@
+body {
+  margin: 0%;
+  background-image: url("https://www.skymetweather.com/themes/skymet/images/ogimagehome.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav {
+  /* display: flex; */
+  flex-wrap: wrap;
+  background-color: #bffff0;
+  height: 150px;
+  margin-top: auto;
+  min-width: 100px;
+}
+.nav_title_container h2 {
+  float: right;
+}
+h1 {
+  display: inline-block;
+  color: #ffbbbb;
+}
+h2 {
+  font-size: 15px;
+  color: #d817df;
+}
+.nav_search_container {
+  display: flex;
+  justify-content: center;
+}
+#input_search_city {
+  width: 40%;
+  border: 3px solid;
+  border-color: #ffbbbb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#search_btn {
+  position: relative;
+  right: 5%;
+  border-style: none;
+  background-color: transparent;
+  color: #f10086;
+}
+
+#search_btn:hover {
+  background-color: #ffbbbb;
+  border-radius: 20px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.data_container {
+  height: 400px;
+  width: 450px;
+  background-color: #ffbbbb;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#location_div {
+  text-align: center;
+}
+
+#temp_icon {
+  width: 80px;
+  height: 80px;
+}
+
+#temp {
+  text-align: center;
+}
+
+#climate {
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  #search_btn {
+    right: 9%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #search_btn {
+    right: 15%;
+  }
+}

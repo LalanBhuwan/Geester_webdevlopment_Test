@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav_container">
+        <div class="nav_title_container">
+          <h1>Weather</h1>
+          <h2>@engineerBhuwan</h2>
+        </div>
+        <div class="nav_search_container">
+          <input
+            type="search"
+            name="search_city"
+            id="input_search_city"
+            placeholder="Search city"
+          />
+          <button id="search_btn">Search</button>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="data_container">
+        <div id="location_div">
+          <p>.......</p>
+        </div>
+
+        <div id="temp">
+          <img id="temp_icon" src="./weather.png" alt="" />
+          <p> <span id="temp_value">.....</span><span id="temp_unit">&#176c</span></p>
+        </div>
+
+        <div id="climate">
+            <p>.....</p>
+        </div>
+
+        <div id="temp_data_last_seven_day">
+
+        </div>
+
+         
+
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
